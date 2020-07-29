@@ -1,0 +1,54 @@
+Goal: RF pre-amp board that operates 2-65 MHz.
+
+Components:
+C1: 1.5 pF, 0402
+C2, C4: 2.2 uF, 0603
+C3, C7: 0.1 uF, 0402
+C5: 1000 pF, 0402
+C6: 10 uF, 0603
+C8, C9: 1uF, 0603
+L1: 15 uH, 0603
+L2: 5.1 nH, 0603
+R1: 1500 Ohm, 0402
+D1: BAV99
+D2: BAS321Z
+U1: PHA-13LN+
+U2: TPS7A05, 3V, SOT-23 3
+
+
+Enclosure:
+https://www.lotussys.com/products/6ued2w6s1a2?_pos=5&_sid=422b3047d&_ss=r
+
+RF width calc:
+https://www.everythingrf.com/rf-calculators/microstrip-width-calculator
+- 20 mil dielectric thickness
+- 1.4 mil copper thickness
+- Relative permittivity of substrate is 4
+37.5 mil strip width
+
+RF amps:
+PHA-13LN+ https://www.mouser.com/ProductDetail/Mini-Circuits/PHA-13LN%2b?qs=%2Fha2pyFaduh2Ed6TGpAMb7Ys1eOrb4r56R7%252Bfhe7C1Y%3D
+
+Inductors:
+5.1 nH, 0603 https://www.mouser.com/ProductDetail/Murata-Electronics/LQW18AS5N1G0ZD?qs=Mv7BduZupUjr7GoYEmk%252B5A%3D%3D
+15 uH, 0805 (FERRITE, 10% SHIELDED) https://www.mouser.com/ProductDetail/Bourns/CV201210-150K?qs=k2%252BVLg4AuuQoVlxKpSoZ1g%3D%3D
+
+Capacitors:
+1.5 pF, 0402 https://www.mouser.com/ProductDetail/Taiyo-Yuden/UVK105CG1R5BW-F?qs=KeU%2FaRU0YVWOdAFciFL0Pw%3D%3D
+0.1 uF, 0402 https://www.mouser.com/ProductDetail/Taiyo-Yuden/EMF105B7104MVHF?qs=%252B6g0mu59x7LtSdgNoaFAbQ%3D%3D
+1000 pF, 0402 https://www.mouser.com/ProductDetail/Taiyo-Yuden/EMF105B7102KVHF?qs=%252B6g0mu59x7KRSpESRF2lFA%3D%3D
+1 uF, 0603 https://www.mouser.com/ProductDetail/Taiyo-Yuden/TMK107BLD105KA-T?qs=sGAEpiMZZMsh%252B1woXyUXj0ABNAb8d%252BWQAuxWHnwdgyA%3D
+2.2 uF, 0603 https://www.mouser.com/ProductDetail/Taiyo-Yuden/LMK107BJ225KK-T?qs=Va%252BXcMGJzEseoE1BciB9dg%3D%3D
+10 uF, 0603 https://www.mouser.com/ProductDetail/Taiyo-Yuden/JMK107ABJ106KAHT?qs=sGAEpiMZZMsh%252B1woXyUXj8BqG1OLPOA9a9ARTDU3sV8%3D
+
+Resistors:
+1500 Ohm, 0402 https://www.mouser.com/ProductDetail/Yageo/RT0402FRE131K5L?qs=sGAEpiMZZMtlubZbdhIBID6BCdjnbd%2FdWp2NcMvmpes%3D
+
+Voltage Regulator:
+TPS7A05, 3V, SOT-23 3 https://www.mouser.com/ProductDetail/Texas-Instruments/TPS7A0530PDBZR?qs=XeJtXLiO41RzQ7iNDfPZhQ%3D%3D
+
+Crossed diodes:
+BAV99 https://www.mouser.com/ProductDetail/Rectron/BAV99?qs=7pEAo90IqNFHEty9CuCrMA%3D%3D
+
+General purpose diode:
+BAS321Z https://www.mouser.com/ProductDetail/Nexperia/BAS321Z?qs=45Avz0nZxhvdAqYZS%2Fpc0w%3D%3D
