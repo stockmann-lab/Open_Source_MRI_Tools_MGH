@@ -1,13 +1,13 @@
 # Toroidal choke 
 3T (~125 MHz) Toroidal choke design and data
 
-Design printed on dimension sst 1200es
+Design printed on dimension sst 1200es. 
 Coils hand-wrapped with BELDEN 22 AWG magnet wire (p/n 8051)
 
 # Coil test
 Tested on 125 MHz hand-tuned coil -- design in EIT coil folder. 
-Tests 1 and 2 measured resonance effects bridging over a capacitor in the coil loop for two chokes.
-Test 3 measured blocking ability by connecting a twisted pair using both chokes.
+Tests 1 and 2 measured resonance effects bridging over a capacitor in the coil loop for two chokes. 
+Test 3 measured blocking ability by connecting a twisted pair using both chokes. 
 Baseline was measured before and after all tests, to account for some shifts during soldering.
 
 # FEKO model
