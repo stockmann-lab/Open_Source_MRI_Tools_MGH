@@ -1,5 +1,3 @@
-Goal: RF pre-amp board that operates 2-65 MHz.
-
 Components:
 C1: 1.5 pF, 0402
 C2, C4: 2.2 uF, 0603
